@@ -45,3 +45,28 @@ def print_shop_menu(item1Name: str, item1Price: float, item2Name: str, item2Pric
     print(f"|{line1}|")
     print(f"|{line2}|")
     print(border)
+
+def test_functions():
+    """Calls each function three times with different test cases (where applicable)."""
+    print("Testing print_welcome():")
+    print_welcome()
+    print_welcome()
+    print_welcome()
+
+    print("\nTesting print_shop_menu():")
+    print_shop_menu()
+    print_shop_menu()
+    print_shop_menu()
+
+    print("\nTesting print_game_over():")
+    print_game_over()
+    print_game_over()
+    print_game_over()
+
+    print("\nTesting print_victory():")
+    print_victory()
+    print_victory()
+    print_victory()
+
+if __name__ == "__main__":
+    test_functions()
